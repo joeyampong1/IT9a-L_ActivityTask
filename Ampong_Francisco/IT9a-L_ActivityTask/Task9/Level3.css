@@ -1,0 +1,120 @@
+
+body {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  background: #ff9a9e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border: none !important;
+  border-radius: 20px !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 10px 20px rgba(0, 0, 0, 0.22) !important;
+  transition: transform 0.3s ease;
+  background: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  border-radius: 8px !important;
+  padding: 10px 25px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease !important;
+}
+
+.btn-secondary {
+  background: #6c757d !important;
+  border: none !important;
+}
+
+.btn-secondary:hover {
+  background: #5a6268 !important;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(108, 117, 125, 0.4);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4) !important;
+  border: none !important;
+  color: #333 !important;
+  font-weight: 700 !important;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #f88b8f, #fcc9c0) !important;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(255, 154, 158, 0.4);
+}
+
+/* LEVEL UP BUTTON STYLES */
+.btn-success {
+  background: linear-gradient(45deg, #43e97b, #38f9d7) !important;
+  border: none !important;
+  color: #333 !important;
+  font-weight: 700 !important;
+  font-size: 1.2rem !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 20px rgba(67, 233, 123, 0.3);
+}
+
+.btn-success:hover {
+  background: linear-gradient(45deg, #3ad46f, #2ed5b6) !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 10px 25px rgba(67, 233, 123, 0.5);
+}
+
+/* Badge style */
+.badge {
+  border-radius: 10px !important;
+  font-size: 0.9rem !important;
+  padding: 0.5rem 1rem !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4) !important;
+  border: 2px solid white !important;
+  max-width: 5rem;
+  width: auto;
+  display: flex;             
+  justify-content: center;    
+  align-items: center;       
+  text-align: center; 
+  color: #333 !important;
+  font-weight: 700;
+}
+
+hr {
+  border: 2px solid #ff9a9e !important;
+  opacity: 0.5;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.card-title {
+  color: #333;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+}
+
+.card-text {
+  color: #555 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.6;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Level number highlight */
+#levelNumber {
+  font-weight: 800;
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.1);
+  padding: 0.2rem 0.8rem;
+  border-radius: 50px;
+  display: inline-block;
+}

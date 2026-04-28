@@ -1,0 +1,475 @@
+
+/* Main header card */
+.portfolio-header {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin: 30px 40px 0;
+}
+
+/* Top row: profile (left) + school (right) */
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Profile container */
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Profile image */
+.profile-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Name + role */
+.profile-text h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.pronouns {
+  font-size: 14px;
+  color: #6b7280;
+  margin-left: 6px;
+}
+
+/* Job title */
+.job-title {
+  font-size: 15px;
+  color: #374151;
+  margin: 2px 0;
+}
+
+/* Location */
+.location {
+  font-size: 14px;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* School badge (right side) */
+.school-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
+.school-badge img {
+  width: 36px;
+}
+
+/* Contact buttons row */
+.contact-pills {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Individual contact button */
+.contact-pills a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #f9fafb;
+  font-size: 14px;
+  color: #374151;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.contact-pills a:hover {
+  background: #f3f4f6;
+  color: #2563eb;
+}
+
+
+/* Cards Container */
+ .cards-container {
+    max-width: 1400px;
+    margin: 30px auto 40px auto;
+    display: flex;
+    gap: 30px;
+    padding: 0 50px 40px 50px;
+}
+
+/* LEFT column – longer cards */
+.cards-column:first-child {
+    flex: 2;   
+}
+
+/* RIGHT column – smaller cards */
+.cards-column:last-child {
+    flex: 1;   
+}
+
+
+.cards-column {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Card Section */
+.card-section {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Card Header */
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 25px;
+    background: white;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.card-header i {
+    color: #6b7280;
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+}
+
+.card-header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+    flex: 1;
+}
+
+.card-header .view-all {
+    font-size: 14px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.card-header .view-all:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+/* Card Content */
+.card-content {
+    padding: 25px;
+}
+
+.card-content p {
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+
+.card-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Experience Card */
+.experience-card {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.exp-title h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 4px 0;
+}
+
+.exp-company {
+    color: #6b7280;
+    font-size: 14px;
+    margin: 0;
+}
+
+.exp-date {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.exp-date i {
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+/* Hobby Card */
+.hobby-card {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.hobby-card:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.hobby-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 12px 0;
+}
+
+.hobby-subsection {
+    margin-bottom: 16px;
+}
+
+.hobby-subsection:last-child {
+    margin-bottom: 0;
+}
+
+.hobby-subsection h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    margin: 0 0 6px 0;
+}
+
+.hobby-subsection p {
+    margin: 0;
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Certification Card */
+.certification-card {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+}
+
+.certification-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 8px 0;
+}
+
+.certification-card p {
+    margin: 0 0 8px 0;
+    color: #4b5563;
+    font-size: 14px;
+}
+
+.certification-card p:last-child {
+    margin-bottom: 0;
+    color: #6b7280;
+    font-style: italic;
+}
+
+/* Tech Stack Card */
+.tech-stack-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tech-category {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.tech-category:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.tech-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tech-header i {
+    color: #6b7280;
+    font-size: 14px;
+    width: 20px;
+}
+
+.tech-header h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-tag {
+    background: #f3f4f6;
+    color: #374151;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #e5e7eb;
+    transition: all 0.2s ease;
+}
+
+.tech-tag:hover {
+    background: #e5e7eb;
+    transform: translateY(-1px);
+}
+
+/* Project Card */
+.project-card {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+}
+
+.project-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 12px 0;
+}
+
+.project-card p {
+    margin: 0;
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .cards-container {
+        padding: 0 40px 30px 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .cards-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 30px 25px 30px;
+    }
+    
+    .cards-column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        padding: 0 20px 20px 20px;
+    }
+    
+    .portfolio-header {
+        margin: 20px 20px 0 20px;
+    }
+    
+    .exp-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .exp-date {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .cards-container {
+        padding: 0 15px 15px 15px;
+    }
+    
+    .portfolio-header {
+        margin: 15px 15px 0 15px;
+        padding: 20px;
+    }
+    
+    .card-header, .card-content {
+        padding: 18px;
+    }
+    
+    .tech-tags {
+        gap: 8px;
+    }
+    
+    .tech-tag {
+        padding: 6px 14px;
+        font-size: 13px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .cards-container {
+        box-shadow: none;
+        gap: 15px;
+    }
+    
+    .card-section {
+        box-shadow: none;
+        border: 1px solid #ddd;
+        break-inside: avoid;
+    }
+    
+    .portfolio-header {
+        border: 2px solid #333;
+    }
+}

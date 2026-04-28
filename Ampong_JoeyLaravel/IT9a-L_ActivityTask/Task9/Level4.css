@@ -1,0 +1,150 @@
+
+body {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: #f093fb; /* fallback */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border: none !important;
+  border-radius: 20px !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 10px 20px rgba(0, 0, 0, 0.22) !important;
+  transition: transform 0.3s ease;
+  background: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  border-radius: 8px !important;
+  padding: 10px 25px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease !important;
+}
+
+.btn-secondary {
+  background: #6c757d !important;
+  border: none !important;
+}
+
+.btn-secondary:hover {
+  background: #5a6268 !important;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(108, 117, 125, 0.4);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #f093fb, #f5576c) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 700 !important;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #e57ef0, #e34b5f) !important;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(240, 147, 251, 0.4);
+}
+
+/* SUBMIT BUTTON STYLE */
+.btn-warning {
+  background: linear-gradient(45deg, #ffb347, #ff8c00) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 20px rgba(255, 140, 0, 0.3);
+}
+
+.btn-warning:hover {
+  background: linear-gradient(45deg, #ffa01e, #e67e00) !important;
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(255, 140, 0, 0.5);
+}
+
+/* Badge style */
+.badge {
+  border-radius: 10px !important;
+  font-size: 0.9rem !important;
+  padding: 0.5rem 1rem !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #f093fb, #f5576c) !important;
+  border: 2px solid white !important;
+  max-width: 5rem;
+  width: auto;
+  display: flex;             
+  justify-content: center;    
+  align-items: center;       
+  text-align: center; 
+  color: white !important;
+  font-weight: 700;
+}
+
+hr {
+  border: 2px solid #f093fb !important;
+  opacity: 0.5;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.card-title {
+  color: #333;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+}
+
+.card-text {
+  color: #555 !important;
+  line-height: 1.6;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Form input styling */
+.form-control {
+  border-radius: 15px !important;
+  border: 2px solid #e0e0e0 !important;
+  padding: 12px !important;
+  font-size: 1rem !important;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #f093fb !important;
+  box-shadow: 0 0 0 0.2rem rgba(240, 147, 251, 0.25) !important;
+}
+
+.form-label {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+/* Message area styles */
+#messageArea {
+  min-height: 70px;
+  border-radius: 15px !important;
+  font-size: 1.1rem;
+}
+
+/* Error message style (red) */
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  border: 2px solid #ef5350;
+}
+
+/* Success message style (green) */
+.success-message {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border: 2px solid #66bb6a;
+}

@@ -1,0 +1,123 @@
+.container{
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    width: 420px;
+    background-color: #01637c;
+    margin-top:  100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.screen{
+    height: 90px;
+    width: 352px;
+    margin-top: 13px;
+    background-color: rgba(245, 245, 245, 0.986);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: xx-large;
+    text-align: right;
+}
+.button:hover{
+    background-color: rgb(131, 209, 183);
+}
+.buttons {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 80px); 
+    gap: 14px;
+    border-radius: 10px;
+}
+.button{
+    height: 70px;
+    width: 80px;
+    color: gray;
+}
+
+#zero{
+    width: 80px;
+    height: 70px;
+}
+
+button:nth-child(1),  
+button:nth-child(2),  
+button:nth-child(3),  
+button:nth-child(4),  
+button:nth-child(5),  
+button:nth-child(6),  
+button:nth-child(7),  
+button:nth-child(8),  
+button:nth-child(9),  
+button:nth-child(10),
+button:nth-child(11) { 
+    background-color: #b3afaf; 
+    color: black;
+    font-size: large;
+    border-radius: 5px;
+}
+button:nth-child(11) {  
+   font-size: xx-large;
+}
+
+button:nth-child(12) {  
+    background-color: rgb(182, 29, 29);
+    color: white;
+    border-radius: 5px;
+    font-size: xx-large;
+}
+
+
+button:nth-child(13) {  
+    background-color: rgb(221, 144, 43);
+    color: black;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+button:nth-child(14) {  
+    background-color: rgb(221, 144, 43);
+    color: black;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+button:nth-child(15) {  
+    background-color: rgb(221, 144, 43);
+    color: black;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+button:nth-child(16) {  
+    background-color: rgb(221, 144, 43);
+    color: black;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+#equals{
+    height: 70px;
+    width: auto; 
+    background-color: rgb(8, 141, 8);
+    color: #000000;
+    grid-column: span 4; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: xx-large;
+}
+
+#equals:hover{
+    background-color: rgb(131, 209, 183);
+}
+#zero{
+    width: 80px;
+    height: 70px;
+}
